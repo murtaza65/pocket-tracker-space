@@ -6,7 +6,7 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
 // Use CORS to allow cross-origin requests
-server.use(cors());
+server.use(cors({ origin: '*' }));  // Allow requests from any origin
 
 // Use the default middleware for JSON Server
 server.use(middlewares);
@@ -14,6 +14,7 @@ server.use(middlewares);
 // Custom middleware to log every request
 server.use((req, res, next) => {
   console.log(`${req.method} request made to: ${req.originalUrl}`);
+  console.log(`Response data: ${res}`)
   next(); // Pass the request to the next middleware (router)
 });
 
