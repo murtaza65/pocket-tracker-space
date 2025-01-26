@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Education"
+    },
+    {
+      "id": 2,
+      "name": "Healthcare"
+    },
+    {
+      "id": 3,
+      "name": "Transport"
+    },
+    {
+      "id": 4,
+      "name": "Medicine"
+    },
+    {
+      "id": 5,
+      "name": "Food"
+    }
+  ],
+  "donations": [
+    {
+      "id": 1,
+      "amount": 50,
+      "date": "2025-01-25",
+      "cause": "Education",
+      "categoryId": 1,
+      "notes": "Annual school fundraiser"
+    },
+    {
+      "id": 2,
+      "amount": 67,
+      "categoryId": 2,
+      "notes": "test",
+      "date": "2025-01-26",
+      "cause": "Healthcare"
+    },
+    {
+      "id": 3,
+      "amount": 45,
+      "categoryId": 1,
+      "notes": "t",
+      "date": "2025-01-26",
+      "cause": "Education"
+    },
+    {
+      "id": "20f1",
+      "amount": 100,
+      "categoryId": 5,
+      "notes": "test",
+      "date": "2025-01-26",
+      "cause": "Food"
+    },
+    {
+      "id": "a3e8",
+      "amount": 490,
+      "categoryId": 3,
+      "notes": "",
+      "date": "2025-01-26",
+      "cause": "Transport"
+    }
+  ]
+}
